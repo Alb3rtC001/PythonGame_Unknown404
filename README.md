@@ -43,6 +43,7 @@ Daños:
 * Se hará con Unity
 #### hidden field with metadata 👇
 <div class="meta_for_parser tablespecs" style="visibility:hidden">
+<!--
 <div>
 <div style="visibility:hidden">Inspiración:</div>
     <div style="visibility:hidden">- Stardew valley</div>
@@ -59,4 +60,5 @@ Daños:
     <div style="visibility:hidden">- Media / baja</div>
 </div>
 </div>
+-->
 #### hidden field with metadata 👆
