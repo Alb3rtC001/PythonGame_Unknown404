@@ -41,6 +41,8 @@ Daños:
 ##########################################################################
 # PROYECTO 2
 * Se hará con Unity
+#### hidden field with metadata 👇
+<div class="meta_for_parser tablespecs" style="visibility:hidden">
 
 Inspiración:
     - Stardew valley
@@ -54,3 +56,6 @@ Genero:
 
 Dificultad
     - Media / baja
+
+</div>
+#### hidden field with metadata 👆
