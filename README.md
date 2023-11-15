@@ -36,7 +36,7 @@ Juego Beta python
         1. Stuns / electrocuted
         2. Slows / dmg in rail
         3. Silence / 
-        4. petrify / Hacked
+        4. Petrify / Hacked
 
 
 
