@@ -1,5 +1,5 @@
 
-class Personaje:
+class Personaje(object):
 
     #Atributos
     __vida = 10
@@ -23,8 +23,9 @@ class Personaje:
     def atack(self):
         pass
 
-    def dmg(self):
-        pass
+    def dmg(self, damage):
+        #Añadir la defensa al daño (O aplicar diferente planteamiento)
+        return self.vida  - damage if self.vida - damage >= 0 else 0
 
     def move(self):
         pass
