@@ -27,16 +27,16 @@ Juego Beta python
 * Daños:
 
     - Los objetivos van a tener defensa el problema es que esto se peude hacer de varias formas
-        > vida + defensa
-        > (daño - daño * defensa%) - vida
-        > (vida + vida * defensa%) - daño
-        > defensa = prob acertar
+        1. vida + defensa
+        2. (daño - daño * defensa%) - vida
+        3. (vida + vida * defensa%) - daño
+        4. defensa = prob acertar
 
     - Van a haber efectos de estado:
-        > Stuns / electrocuted
-        > Slows / dmg in rail
-        > Silence / 
-        > petrify / Hacked
+        1. Stuns / electrocuted
+        2. Slows / dmg in rail
+        3. Silence / 
+        4. petrify / Hacked
 
 
 
