@@ -8,3 +8,11 @@ Inspirado en:
     - Isaac
     - LoopHero
 
+Historia:
+    - 
+
+Mecánica:
+    - Salas procedurales
+    - "Mismas salas"
+    - Historia básica
+    - 
