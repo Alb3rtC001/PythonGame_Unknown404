@@ -30,7 +30,7 @@ Daños:
         > (vida + vida * defensa%) - daño
         > defensa = prob acertar
 
-    - Van haber efectos de estado:
+    - Van a haber efectos de estado:
         > Stuns / electrocuted
         > Slows / dmg in rail
         > Silence / 
