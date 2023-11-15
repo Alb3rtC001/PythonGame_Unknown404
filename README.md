@@ -44,19 +44,19 @@ Daños:
 #### hidden field with metadata 👇
 <div class="meta_for_parser tablespecs" style="visibility:hidden">
 <div>
-<div>Inspiración:</div>
-    <div>- Stardew valley</div>
-    <div>- two point hospital</div>
-   <div> - they are billion</div>
+<div style="visibility:hidden">Inspiración:</div>
+    <div style="visibility:hidden">- Stardew valley</div>
+    <div style="visibility:hidden">- two point hospital</div>
+   <div style="visibility:hidden"> - they are billion</div>
 </div>
 <div>
-<div>Genero:</div>
-    <div>- Rol</div>
-    <div>- Farming</div>
-    <div>- estrategia</div>
+<div style="visibility:hidden">Genero:</div>
+    <div style="visibility:hidden">- Rol</div>
+    <div style="visibility:hidden">- Farming</div>
+    <div style="visibility:hidden">- estrategia</div>
 </div>
-<div>Dificultad</div>
-    <div>- Media / baja</div>
+<div style="visibility:hidden">Dificultad</div>
+    <div style="visibility:hidden">- Media / baja</div>
 </div>
 </div>
 #### hidden field with metadata 👆
