@@ -42,20 +42,21 @@ Daños:
 # PROYECTO 2
 * Se hará con Unity
 #### hidden field with metadata 👇
-<div class="meta_for_parser tablespecs" style="visibility:hidden">{
-
-Inspiración:
-    - Stardew valley
-    - two point hospital
-    - they are billion
-
-Genero:
-    - Rol
-    - Farming
-    - estrategia
-
-Dificultad
-    - Media / baja
-
-}</div>
+<div class="meta_for_parser tablespecs" style="visibility:hidden">
+<div>
+<div>Inspiración:</div>
+    <div>- Stardew valley</div>
+    <div>- two point hospital</div>
+   <div> - they are billion</div>
+</div>
+<div>
+<div>Genero:</div>
+    <div>- Rol</div>
+    <div>- Farming</div>
+    <div>- estrategia</div>
+</div>
+<div>Dificultad</div>
+    <div>- Media / baja</div>
+</div>
+</div>
 #### hidden field with metadata 👆
