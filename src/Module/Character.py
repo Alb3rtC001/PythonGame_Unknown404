@@ -33,7 +33,8 @@ class Personaje:
         pass
 
     def stats(self):
-        print("Name: ",self.name)
+        #Devolver un JSON de las stats
+        print("--------- ", self.name ," ----------")
         print("Health: ",self.health)
         print("Dmg: ",self.dmg)
         print("Def: ",self.defence)
@@ -41,7 +42,7 @@ class Personaje:
         print("Atc. Speed: ",self.atck_sp)
         print("Luck: ",self.lucky)
         print("Intel: ",self.intel)
-        pass
+        print("--------------------------")
     
     def dead(self):
         self.health = 0
