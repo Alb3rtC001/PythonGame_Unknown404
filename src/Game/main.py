@@ -1,4 +1,5 @@
 import pygame
+from Models import Character
 
 
 #Init my game

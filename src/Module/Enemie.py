@@ -1,4 +1,4 @@
 import Character
 
-class Robot(object):
+class Enemie:
     pass

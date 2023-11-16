@@ -46,7 +46,7 @@ Juego Beta python
 #### hidden field with metadata 👇
 <div class="meta_for_parser tablespecs" style="visibility:hidden">
 <!--
-<div>
+<div>They are all in my mand
 <div style="visibility:hidden">Inspiración:</div>
     <div style="visibility:hidden">- Stardew valley</div>
     <div style="visibility:hidden">- two point hospital</div>
