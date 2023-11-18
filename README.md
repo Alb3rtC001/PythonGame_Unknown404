@@ -64,3 +64,18 @@ Juego Beta python
 </div>
 -->
 ### hidden field with metadata 👆
+
+###########################################################################
+
+<!-- 
+-- Apuntes personales --
+
+Crear un escenario.
+Crear con pixel art el personaje
+Añadir movimiento al personaje en el escenario.
+Seguir con enemigos
+Crear las salas procedurales
+
+Pensar en la dinámica del juego
+ 
+ -->

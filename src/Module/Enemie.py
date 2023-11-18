@@ -1,4 +1,5 @@
-import Character
+from Character import Personaje
 
-class Enemie:
+class Enemie(Personaje):
     pass
+

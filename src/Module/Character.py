@@ -12,7 +12,6 @@ class Personaje:
     __intel = 1
     
     def __init__(self, name, health, dmg, defence, speed, atck_sp, lucky, intel):
-        
         self.name = name or self.__name
         self.health = health or self.__health
         self.dmg = dmg or self.__dmg
@@ -34,6 +33,10 @@ class Personaje:
 
     def stats(self):
         #Devolver un JSON de las stats
+        return {"name": self.name, "health": self.health, "dmg": self.dmg, "def": self.defence, "vel":self.speed, "atc_speed": self.atck_sp, "luck": self.lucky, "intel": self.intel}
+
+    #TO DO - Eliminar
+    def print_Stats(self):
         print("--------- ", self.name ," ----------")
         print("Health: ",self.health)
         print("Dmg: ",self.dmg)
