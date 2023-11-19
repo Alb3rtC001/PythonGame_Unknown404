@@ -38,6 +38,9 @@ Juego Beta python
         3. Silence / 
         4. Petrify / Hacked
 
+* Bibliografia
+
+    - Crear gifts o animaciones: https://ezgif.com/maker
 
 
 ##########################################################################
