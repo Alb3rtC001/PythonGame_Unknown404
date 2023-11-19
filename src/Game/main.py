@@ -39,13 +39,25 @@ while running:
 
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_DOWN:
-                playerY_change = 0.1
+                if playerY == max_screenY:
+                    playerY_change = 1
+                else:
+                    playerY_change = 0.1
             if event.key == pygame.K_UP:
-                playerY_change = -0.1
+                if playerY == 0:
+                    playerY_change -1
+                else:
+                    playerY_change = -0.1
             if event.key == pygame.K_RIGHT:
-                playerX_change = 0.1
+                if playerX == max_screenX:
+                    max_screenX = 1
+                else:
+                    playerX_change = 0.1
             if event.key == pygame.K_LEFT:
-                playerX_change = -0.1
+                if playerX == 0:
+                    playerX_change = -1
+                else:
+                    playerX_change = -0.1
             print(playerX, playerX_change, playerY, playerY_change)
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
@@ -53,11 +65,11 @@ while running:
             if event.key == pygame.K_UP or event.key == pygame.K_DOWN:
                 playerY_change = 0
 
+    playerX += playerX_change 
+    playerY += playerY_change
     if playerX >= max_screenX or playerX <= 0:
         playerX_change = 0
     if playerY >= max_screenY or playerY <= 0:
         playerY_change = 0
-    playerX += playerX_change 
-    playerY += playerY_change
     player(playerX, playerY)
     pygame.display.update()
