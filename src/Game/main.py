@@ -63,7 +63,6 @@ while running:
                 playerX_change = 0
             if event.key == pygame.K_w or event.key == pygame.K_s:
                 playerY_change = 0
-        print(playerX, playerX_change, playerY, playerY_change)
 
     playerX += playerX_change 
     playerY += playerY_change
