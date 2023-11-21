@@ -38,6 +38,14 @@ Juego Beta python
         3. Silence / 
         4. Petrify / Hacked
 
+* Combate:
+
+    - El personaje puede cambiar de "forma"
+    - Se mejoran las estadisicas
+    - Puede obtener objetos
+    - Crafter
+    - - La pregunta es: Combate melee? A dsitáncia? Con habilidades? Disparo único e inmutable?????
+
 * Bibliografia
 
     - Crear gifts o animaciones: https://ezgif.com/maker
@@ -81,4 +89,20 @@ Crear las salas procedurales
 
 Pensar en la dinámica del juego
  
+ -->
+
+ ## Proyecto 3
+
+    ?????
+ <!-- 
+    Juego para móvil
+    snake (Metal gear sólid)
+    Tower defense
+
+    * La idea es coger planos de castillos o fuertes predefinidos donde se combate en multijugador para entrar dentro de la base enemiga
+    La idea es que Snake entre en bases creadas por gente y robe recursos o X
+    Tu vas mejorando tu base y hay un ranking. Dependiendo del ranking subes de tier.
+    La base la tienes que mantener y upgradear. Si la mantienes y upgradeas pasas de tier y cada tier te proporciona la posibilidad de tener bases mas avanzadas
+    y herramientas para infiltrarte de mas elevado nivel o complejidad.
+
  -->
