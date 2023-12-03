@@ -12,5 +12,13 @@ class Object:
 
     def __init__(self, name, health, damage, dmg_properties, range, weight, tech, join):
         self.name = name
-        """ Añadir aqui el resto """
+        self.health = health
+        self.damage = damage
+        self.dmg_properties = dmg_properties
+        self.range = range
+        self.weight = weight
+        self.tech = tech
+        self.join = join
+        
+    
 
