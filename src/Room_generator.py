@@ -25,7 +25,7 @@ def next_floor():
     add_rooms(room_needs, room_needs_prob, array_rooms, pre_fault_rooms)
     add_rooms(room_needs, room_needs_prob, array_rooms, pre_fault_rooms)
     add_rooms(special_rooms, special_rooms_prob, array_rooms, pre_fault_rooms)
-    print("----------------")
+    #print("----------------")
     for room in range(max_rooms - pre_fault_rooms):
         #probabilidad y certeza
         array_rooms.append("sala_comun")
@@ -38,7 +38,7 @@ def next_floor():
 
 def add_rooms(special_rooms, special_rooms_prob, array_rooms, pre_fault_rooms):
     special_room_element = random.choices(special_rooms, weights=special_rooms_prob, k=1)[0]
-    print(special_room_element)
+    #print(special_room_element)
     if special_room_element != "void": 
         pre_fault_rooms =+1 
         array_rooms.append(special_room_element)
@@ -47,8 +47,9 @@ def add_rooms(special_rooms, special_rooms_prob, array_rooms, pre_fault_rooms):
 # Imprimir el diccionario resultante
 def print_floor_rooms(diccionario_arrays):
     print("Diccionario de Arrays:")
-    for clave, valor in diccionario_arrays.items():
-        print(f"{clave}: {valor}")
+    print(diccionario_arrays)
+    #for valor in diccionario_arrays:
+        #print(f"{valor}")
 
 new_array = next_floor()
 print_floor_rooms(new_array)
