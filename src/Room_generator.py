@@ -20,16 +20,11 @@ def next_floor():
     array_rooms.append("salida")
     pre_fault_rooms = 2
     # Seleccionar elementos con base en las probabilidades
-    comun_rooms_element = random.choices(room_needs, weights=room_needs_prob, k=1)[0]
-    print(comun_rooms_element)
-    if comun_rooms_element != "void":
-        pre_fault_rooms =+1 
-        array_rooms.append(comun_rooms_element)
-    special_room_element = random.choices(special_rooms, weights=special_rooms_prob, k=1)[0]
-    print(special_room_element)
-    if special_room_element != "void": 
-        pre_fault_rooms =+1 
-        array_rooms.append(special_room_element)
+    if max_rooms > 10:
+        add_rooms(room_needs, room_needs_prob, array_rooms, pre_fault_rooms)
+    add_rooms(room_needs, room_needs_prob, array_rooms, pre_fault_rooms)
+    add_rooms(room_needs, room_needs_prob, array_rooms, pre_fault_rooms)
+    add_rooms(special_rooms, special_rooms_prob, array_rooms, pre_fault_rooms)
     print("----------------")
     for room in range(max_rooms - pre_fault_rooms):
         #probabilidad y certeza
@@ -41,6 +36,12 @@ def next_floor():
     diccionario_arrays[0] = array_rooms
     return diccionario_arrays
 
+def add_rooms(special_rooms, special_rooms_prob, array_rooms, pre_fault_rooms):
+    special_room_element = random.choices(special_rooms, weights=special_rooms_prob, k=1)[0]
+    print(special_room_element)
+    if special_room_element != "void": 
+        pre_fault_rooms =+1 
+        array_rooms.append(special_room_element)
 
 
 # Imprimir el diccionario resultante
