@@ -11,7 +11,7 @@ def next_floor():
     special_rooms_prob = [0.93, 0.01, 0.06]
 
     # Crear un diccionario de arrays
-    diccionario_arrays = {}
+    diccionario_arrays = []
 
     max_rooms = random.randint(min_longitud_array,max_longitud_array)
     random.shuffle(room_needs)
@@ -33,7 +33,7 @@ def next_floor():
     random.shuffle(array_rooms)
     random.shuffle(array_rooms)
     random.shuffle(array_rooms)
-    diccionario_arrays[0] = array_rooms
+    diccionario_arrays = array_rooms
     return diccionario_arrays
 
 def add_rooms(special_rooms, special_rooms_prob, array_rooms, pre_fault_rooms):
