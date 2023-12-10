@@ -23,6 +23,7 @@ playerY = 400
 playerX_change = 0
 playerY_change = 0
 player_speed = 1.0
+test = 0
 
 def player(x, y):
     screen.blit(Player_img, (x, y))
@@ -60,6 +61,13 @@ while running:
         playerX_change = -player_speed
     else:
         playerX_change = 0
+
+    #Evento pilla el tiempo pulsado left click
+    if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+        test += 1
+        print(test)
+        if(test >= 10):
+            test = 0
 
     # Actualiza las coordenadas del jugador
     playerX += playerX_change
