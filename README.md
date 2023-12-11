@@ -6,7 +6,7 @@ Juego Beta python
 
 * Inspirado en:
     - Isaac
-    - LoopHero
+    - tower bosses
 
 * Historia:
     - Robot con un último comando de protejer una nave 
