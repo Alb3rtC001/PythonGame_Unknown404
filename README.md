@@ -51,14 +51,13 @@ Juego Beta python
     - Crear gifts o animaciones: https://ezgif.com/maker 
 
 > [!IMPORTANT]
-> Hola
-    - Ininite floors
-    - Multi Rooms X Floor
-    - Procedural Rooms
-    - Events
-    - Bosses
-    - Dodge, Dash and Parry
-    - Hidden Quests / Hidden secrets
+>   - Ininite floors
+>   - Multi Rooms X Floor
+>   - Procedural Rooms
+>   - Events
+>   - Bosses
+>   - Dodge, Dash and Parry
+>   - Hidden Quests / Hidden secrets
 >
 
 ##########################################################################
