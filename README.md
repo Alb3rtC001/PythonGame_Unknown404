@@ -50,6 +50,16 @@ Juego Beta python
 
     - Crear gifts o animaciones: https://ezgif.com/maker
 
+.[!TIP].
+
+    - Ininite floors
+    - Multi Rooms X Floor
+    - Procedural Rooms
+    - Events
+    - Bosses
+    - Dodge, Dash and Parry
+    - Hidden Quests / Hidden secrets
+
 
 ##########################################################################
 # PROYECTO 2
