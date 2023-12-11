@@ -50,7 +50,7 @@ Juego Beta python
 
     - Crear gifts o animaciones: https://ezgif.com/maker
 
-[!TIP]
+> [!TIP]
 
     - Ininite floors
     - Multi Rooms X Floor
