@@ -77,10 +77,15 @@ while running:
 
     #Evento pilla el tiempo pulsado left click
     if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+        if(atack_btn == 0):
+            #Aquí va el disparo
+            print("PIUM!!")
         atack_btn += 1
-        print(atack_btn)
-        if(atack_btn >= 10):
+        #print(atack_btn)
+        if(atack_btn >= 5):
             atack_btn = 0
+    if event.type == pygame.MOUSEBUTTONUP:
+        atack_btn = 0
 
     # Actualiza las coordenadas del jugador
     playerX += playerX_change
