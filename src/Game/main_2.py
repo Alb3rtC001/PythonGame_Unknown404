@@ -1,5 +1,6 @@
 import pygame
 import sys
+import random
 
 # Inicializa pygame
 pygame.init()
@@ -15,6 +16,7 @@ pygame.display.set_caption("Unknown404")
 sys.path.insert(0, "..")
 Player_img = pygame.image.load("./src/Img/resize_transparent_roboto.png")
 room_flor_img = pygame.image.load("./src/Img/floor.png")
+enemie_img = pygame.image.load("./src/Img/enemie_robot.gif")
 
 DEFAULT_IMAGE_SIZE = (47, 60)
 Player_img = pygame.transform.scale(Player_img, DEFAULT_IMAGE_SIZE)
@@ -23,10 +25,21 @@ playerY = 400
 playerX_change = 0
 playerY_change = 0
 player_speed = 1.0
-test = 0
+atack_btn = 0
+
+enemie_img = pygame.transform.scale(enemie_img, DEFAULT_IMAGE_SIZE)
+enemieX = random.randint(100, 400)
+enemieY = random.randint(100, 400)
+
+
+#Test
+
 
 def player(x, y):
     screen.blit(Player_img, (x, y))
+
+def enemie(x, y):
+    screen.blit(enemie_img, (x, y))
 
 # Bucle principal
 running = True
@@ -64,10 +77,10 @@ while running:
 
     #Evento pilla el tiempo pulsado left click
     if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
-        test += 1
-        print(test)
-        if(test >= 10):
-            test = 0
+        atack_btn += 1
+        print(atack_btn)
+        if(atack_btn >= 10):
+            atack_btn = 0
 
     # Actualiza las coordenadas del jugador
     playerX += playerX_change
@@ -79,6 +92,9 @@ while running:
 
     # Dibuja el suelo
     screen.blit(room_flor_img, (0, 0))
+
+    #Dibujar enemigo
+    enemie(enemieX, enemieY)
 
     # Dibuja al jugador
     player(playerX, playerY)
