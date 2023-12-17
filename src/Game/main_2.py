@@ -25,15 +25,38 @@ playerY = 400
 playerX_change = 0
 playerY_change = 0
 player_speed = 1.0
+
 atack_btn = 0
+rpm_atack = 8
 
 enemie_img = pygame.transform.scale(enemie_img, DEFAULT_IMAGE_SIZE)
 enemieX = random.randint(100, 400)
-enemieY = random.randint(100, 400)
+enemieY = random.randint(100, 300)
 
 
-#Test
-
+#Acabar disparos
+def proyectil(pendiente ,subX, Y_fin, Y_ini, X_fin, X_ini):
+    if Y_ini == Y_fin or X_ini == subX:
+        if Y_ini == Y_fin:
+            x = 0
+            if subX-X_fin > 0:
+                x = subX + 1
+                return [Y_ini, x]
+            else:
+                x = subX - 1
+                return [Y_ini, x]
+        else:
+            y = 0
+            if Y_ini-Y_fin > 0:
+                y = Y_ini +1
+                return [y, X_ini]
+            else:
+                y = Y_ini -1
+                return [y, X_ini]
+    else:
+        #Seguir por aqui
+        y = pendiente*subX + Y_fin
+    return [y, subX]
 
 def player(x, y):
     screen.blit(Player_img, (x, y))
@@ -80,9 +103,11 @@ while running:
         if(atack_btn == 0):
             #Aquí va el disparo
             print("PIUM!!")
+            pendiente = ((event.pos[0] - playerX)/ (event.pos[1] - playerY))
+            print("la pendiente es: ", proyectil(pendiente, 0.1, event.pos[1], playerY, event.pos[0], playerX))
         atack_btn += 1
         #print(atack_btn)
-        if(atack_btn >= 5):
+        if(atack_btn >= rpm_atack):
             atack_btn = 0
     if event.type == pygame.MOUSEBUTTONUP:
         atack_btn = 0
